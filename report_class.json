@@ -1,0 +1,22 @@
+[
+    {
+        "scope": "class",
+        "name": "TooManyMethods",
+        "candidate_type": "method_refactoring",
+        "metric": 6,
+        "threshold": 5,
+        "cost": 1,
+        "improvement": 0.4648885462552534,
+        "description": "La classe 'TooManyMethods' contient trop de méthodes (6). Envisagez de refactoriser en plusieurs classes pour améliorer la cohésion."
+    },
+    {
+        "scope": "function",
+        "name": "method6",
+        "candidate_type": "flattening",
+        "metric": 6,
+        "threshold": 3,
+        "cost": 15,
+        "improvement": 5.161586819718223,
+        "description": "La fonction 'method6' présente une imbrication trop profonde (profondeur 6). Envisagez d'aplatir la structure pour améliorer la clarté."
+    }
+]
